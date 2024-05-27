@@ -2,8 +2,8 @@
 
 ### install dependancies
 
-```pip install opencv-python pytesseract
-
+```
+pip install opencv-python pytesseract
 ```
 
 ### install pytesserat
