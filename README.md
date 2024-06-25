@@ -14,15 +14,7 @@ env/Scripts/activate
 
 ### Install Dependancies
 
-```
-pip install opencv-python pytesseract
-
-```
-
-or Run
-
-```
-pip install -r requirements. txt
+```pip install opencv-python pytesseract
 
 ```
 
