@@ -1,19 +1,55 @@
-# OCR on HDMI-USB Input
+# OCR Project
 
-### install dependancies
+### Create a Virtual Environment and Activate it.
 
-```pip install opencv-python pytesseract
+```
+python -m venv env
+```
+
+Activate Virtual Environment
+
+```
+env/Scripts/activate
+```
+
+### Install Dependancies
+
+```
+pip install opencv-python pytesseract
 
 ```
 
-### install pytesserat
+or Run
+
+```
+pip install -r requirements. txt
+
+```
+
+### Install Tesserat OCR
+
+Download and install Tesserat OCR on your PC
 
 ```
 https://github.com/UB-Mannheim/tesseract/wiki
 ```
 
-### run app
+### Run App
 
 ```
 python app.py
+```
+
+### File Structure
+
+Files are structured as below.
+
+```
+|--env
+|--data
+|--app.py
+|--ocr_utils.py
+|--coord_finder.py
+|--requirements.txt
+|--README.md
 ```

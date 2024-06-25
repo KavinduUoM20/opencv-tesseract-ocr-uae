@@ -14,10 +14,7 @@ def Capture_Event(event, x, y, flags, params):
 
 if __name__ == "__main__":
     # Read the image
-    img = cv2.imread('./data/frame_1.png', 1)
-    
-    # Resize the image to 1080x720
-    img = cv2.resize(img, (1080, 720))
+    img = cv2.imread('./frame_0.jpg', 1)
     
     # Show the image
     cv2.imshow('image', img)
